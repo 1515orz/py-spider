@@ -1,0 +1,10 @@
+如何访问互联网：
+使用url : 协议 + hostname + 域名 + 路径
+protocol://hostname[:port]/path/[;parameters][?query]#fragment  带方括号的是可选项
+
+url由三部分组成:
+第一部分是协议:http,https,ftp,file,ed2k...
+第二部分是存放资源的服务器域名系统或ip地址(有时候需要包括端口号,各种传输协议都有默认的端口号,如http的默认端口号为80)
+第三部分是资源的具体地址,如目录或文件名等
+模块:urllib,requests
+
